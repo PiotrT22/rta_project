@@ -7,3 +7,9 @@ Instrukcja
 6) Na jedynm python Konsument_projektu.py a na drugim python Producent_projektu.py
 7) Edytuj kod konsumenta aby zrobić dalszą analizę (ja tam umieściłem jakieś proste zliczanie unikalnych lotów oraz syatystyki ogólne z najświeższej paczki danych)
 Konsument wysyła jedną paczkę na 5 sekund. W jednej paczce znajdują się wartości zmiennych dla wszystkich lotów które zmierzają do Warszawy i były w naszej bazie danych
+Ważnym elementem tego kodu konsumenta co napisałem jest fragment:
+# Flagi kontrolujące, co ma być wypisywane
+POKAZUJ_REKORDY = 0        # Jeśli 1, to wypisuje dane pojedynczych rekordów
+liczba_lotów = 1           # Jeśli 1, to wypisuje liczbę unikalnych lotów i statystyki
+Chodzi o to żeby wam nie zaspamiło terminala wartościami, użyłem ten kod do sprawdzenia czy wszystko hula (nie hulało, ale udało się naprawić po długiej walce xd)
+ale jeżeli uważacie że niepotrzebujemy tego w kodzie możecie usunąć kompletnie te rzeczy.
