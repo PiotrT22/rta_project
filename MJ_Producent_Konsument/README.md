@@ -12,6 +12,6 @@ Instrukcja
 10) Ważnym elementem tego kodu konsumenta co napisałem jest fragment:
 11) Flagi kontrolujące, co ma być wypisywane
 12) POKAZUJ_REKORDY = 0         (Jeśli 1, to wypisuje dane pojedynczych rekordów)
-13) liczba_lotów = 0            (Jeśli 1, to wypisuje liczbę unikalnych lotów i statystyki)
+13) statystyki = 0            (Jeśli 1, to wypisuje liczbę unikalnych lotów i statystyki)
 14) Chodzi o to żeby wam nie zaspamiło terminala wartościami, użyłem ten kod do sprawdzenia czy wszystko hula (nie hulało, ale udało się naprawić po długiej walce xd)
 15) ale jeżeli uważacie że niepotrzebujemy tego w kodzie możecie usunąć kompletnie te rzeczy.
